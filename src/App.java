@@ -8,7 +8,7 @@ import gals.SyntaticError;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        String texto = "a = 1 + 1;";
+        String texto = "a = 1;";
         Lexico lex = new Lexico(texto);
         Sintatico sin = new Sintatico();
         Semantico sem = new Semantico();
